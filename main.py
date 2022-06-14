@@ -13,89 +13,77 @@ azure = "azurewebsites"
 url = "https://avid-recruitment." + azure + ".net"
 
 
-def fdElement(driver, name, by=By.ID, wait=0):
-    """
-    fdElement returns False if fails or found element otherwise
-    """
-    global exp, WebDriverWait, EC
+def fdElement(name, by=By.ID, wait=5):
+    global driver, exp, WebDriverWait, EC
 
     try:
         wait = WebDriverWait(driver, wait)
         element = wait.until(EC.presence_of_element_located((by, name)))
 
     except exp.NoSuchElementException as e:
+        print(f"Looking for {name}")
         print(e)
-        return False
+        exit(1)
 
     except Exception as e:
+        print(f"Looking for {name}")
         print(e)
-        return False
+        exit(1)
 
     return element
 
 
 driver = webdriver.Firefox()
 driver.get(url)
-wait = WebDriverWait(driver, 100)
-waitElem = wait.until(EC.presence_of_element_located((By.ID, "formUsername")))
-print(f"waitElem: {waitElem}")
+
 
 # Login to application
-formUsername = driver.find_element(By.ID, "formUsername")
-print(f"formUsername: {formUsername}")
-formPassword = driver.find_element(By.ID, "formPassword")
-sign_in_button = driver.find_element(By.ID, "sign-in-button")
+formUsername = fdElement("formUsername")
+formPassword = fdElement("formPassword")
+sign_in_button = fdElement("sign-in-button")
 
 formUsername.send_keys("admin")
 formPassword.send_keys("testPassword")
 sign_in_button.click()
 
 # Wait for the website to load
-wait = WebDriverWait(driver, 10)
-elem = wait.until(EC.presence_of_all_elements_located((By.ID, "formLimit")))
+_ = fdElement("formLimit")
 
 # Check how many elements are in a list
 print("Trying to locate all elements with folder-id className")
-try:
-    folder = driver.find_elements(By.CLASS_NAME, "folder-id")
-    folder_path = driver.find_element(By.CLASS_NAME, "folder-path")
-    print(type(folder))
+folder = fdElement("folder-id")
+folder_path = fdElement("folder-path")
+print(type(folder))
 
-    if type(folder) == "list":
-        for tr in folder:
-            print(f"tr: {tr}")
+if type(folder) == "list":
+    for tr in folder:
+        print(f"tr: {tr}")
 
-except exp.NoSuchElementException as e:
-    print(e)
 
 # Find and type parameters for search
-formLimit = driver.find_element(By.ID, "formLimit")
+formLimit = fdElement("formLimit")
 formLimit.clear()
 formLimit.send_keys("1")
 
-formQuery = driver.find_element(By.ID, "formQuery")
+formQuery = fdElement("formQuery")
 formQuery.send_keys("copyTest")
 
-buttonOptions = driver.find_element(By.ID, "buttonOptions")
+buttonOptions = fdElement("buttonOptions")
 buttonOptions.click()
 
 # Check if folder with id 10 was presented
 wait = WebDriverWait(driver, 10)
 elems = wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "tr")))
 
-try:
-    folder = driver.find_element(By.CLASS_NAME, "folder-id")
-    folder_path = driver.find_element(By.CLASS_NAME, "folder-path")
-    # print(type(folder))
+folder = fdElement("folder-id", by=By.CLASS_NAME)
+folder_path = fdElement("folder-path", by=By.CLASS_NAME)
+# print(type(folder))
 
-    folder.click()
-except exp.NoSuchElementException as e:
-    print(e)
-
+folder.click()
 
 wait = WebDriverWait(driver, 10)
 elems = wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "h3")))
-folderNumber = driver.find_element(By.ID, "folder-id")
+folderNumber = fdElement("folder-id")
 
 print(f"folderNumber.text: {folderNumber.text}")
 if folderNumber.text == idLooked:
