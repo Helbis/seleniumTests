@@ -5,15 +5,16 @@
 * Part 1
 *Prepare automated end-to-end test case using Selenium/Cypress (Selenium prefered, test script should be written in JS, Python or Java/Groovy).*
 
-*Case description*: [0/4]
-+ [ ] login to application using:
+*Case description*: [4/5]
++ [X] login to application using:
   | *username* | *password*   |
   |------------+--------------|
   | admin      | testPassword |
 
-+ [ ] on list view - put limit *1* and query /copyTest/, check if there is only one element on the list and have *ID 10*
-+ [ ] invoke click on *tr* element
-+ [ ] validate if Folder ID displayed at the top of view is equal to 10
++ [X] on list view - put limit *1* and query /copyTest/,
++ [ ] check if there is only one element on the list and have *ID 10*
++ [X] invoke click on *tr* element
++ [X] validate if Folder ID displayed at the top of view is equal to 10
 
 
 * Part 2
@@ -30,3 +31,6 @@ In case of questions or clarification needed feel free to contact at /krzysztof.
 Extra points for: [0/2]
 + [ ] automated test cases in Postman (eg. response for invalid data, if pagination/filtering works properly)
 + [ ] extra tests in Selenium/Cypress (eg. what application does if wrong username is entered, if filtering/pagination works properly)
+
+* TODO Code clarity [0/1]
++ [ ] make a function to check for exceptions given only id or className
