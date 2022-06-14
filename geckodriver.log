@@ -1,0 +1,213 @@
+1655217970009	geckodriver	INFO	Listening on 127.0.0.1:36019
+1655217970013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60249" "-no-remote" "-profile" "/tmp/rust_mozprofileWbvcdF"
+1655217970437	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60249
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWbvcdF/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655217971850	Marionette	INFO	Listening on port 34529
+DevTools listening on ws://localhost:60249/devtools/browser/50566bdd-5dcd-4828-a915-c409b24c714a
+1655217971933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.python.org"
+1655217972841	Marionette	INFO	Stopped listening on port 34529
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655218010897	geckodriver	INFO	Listening on 127.0.0.1:57499
+1655218010901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41339" "-no-remote" "-profile" "/tmp/rust_mozprofileNS4cEh"
+1655218011298	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41339
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNS4cEh/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655218012436	Marionette	INFO	Listening on port 45347
+DevTools listening on ws://localhost:41339/devtools/browser/9733fdbd-2736-4c39-9271-fe662aecdfde
+1655218012530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655218013870	Marionette	INFO	Stopped listening on port 45347
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655218092752	geckodriver	INFO	Listening on 127.0.0.1:37487
+1655218092757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37383" "-no-remote" "-profile" "/tmp/rust_mozprofilembAu2E"
+1655218093150	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:37383
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilembAu2E/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655218094176	Marionette	INFO	Listening on port 44329
+DevTools listening on ws://localhost:37383/devtools/browser/c9846821-d31c-493d-a0df-18e63071051c
+1655218094284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655218095365	Marionette	INFO	Stopped listening on port 44329
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655218291846	geckodriver	INFO	Listening on 127.0.0.1:38497
+1655218291849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40643" "-no-remote" "-profile" "/tmp/rust_mozprofilei9TcdD"
+1655218292238	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:40643
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei9TcdD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655218293415	Marionette	INFO	Listening on port 40959
+DevTools listening on ws://localhost:40643/devtools/browser/1c6e13f8-58d1-4622-8886-7f3455db6dc9
+1655218293468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655218296703	Marionette	INFO	Stopped listening on port 40959
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655221497931	geckodriver	INFO	Listening on 127.0.0.1:45631
+1655221497935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38495" "-no-remote" "-profile" "/tmp/rust_mozprofileGD1hPw"
+1655221498316	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:38495
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGD1hPw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655221499165	Marionette	INFO	Listening on port 45769
+DevTools listening on ws://localhost:38495/devtools/browser/6ac83d5e-ad6a-4173-91c4-d6ed377c1067
+1655221499250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655221501206	Marionette	INFO	Stopped listening on port 45769
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655223002592	geckodriver	INFO	Listening on 127.0.0.1:34167
+1655223002595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60457" "-no-remote" "-profile" "/tmp/rust_mozprofileSwgrII"
+1655223002948	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60457
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSwgrII/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655223003812	Marionette	INFO	Listening on port 33595
+DevTools listening on ws://localhost:60457/devtools/browser/50408822-8a87-4f17-851f-f2df752b007f
+1655223003916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655223006047	Marionette	INFO	Stopped listening on port 33595
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655224797210	geckodriver	INFO	Listening on 127.0.0.1:50437
+1655224797214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58559" "-no-remote" "-profile" "/tmp/rust_mozprofileraMOGc"
+1655224797570	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58559
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileraMOGc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655224798414	Marionette	INFO	Listening on port 42159
+1655224798428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:58559/devtools/browser/752524da-743b-4468-8f5a-b58c6cb9be98
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655224817272	Marionette	INFO	Stopped listening on port 42159
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655225514050	geckodriver	INFO	Listening on 127.0.0.1:33837
+1655225514054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41973" "-no-remote" "-profile" "/tmp/rust_mozprofileU13GEg"
+1655225514403	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41973
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU13GEg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655225515248	Marionette	INFO	Listening on port 40183
+1655225515273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:41973/devtools/browser/f3c34a4c-1cff-47d2-b5cf-7ed834b9d27f
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655225684611	Marionette	INFO	Stopped listening on port 40183
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655226290191	geckodriver	INFO	Listening on 127.0.0.1:36925
+1655226290195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50507" "-no-remote" "-profile" "/tmp/rust_mozprofileVap1nD"
+1655226290589	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50507
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVap1nD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655226291463	Marionette	INFO	Listening on port 33579
+DevTools listening on ws://localhost:50507/devtools/browser/33d97f71-fe52-4671-b0f2-c8ce69e771e0
+1655226291512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655226297398	Marionette	INFO	Stopped listening on port 33579
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655226416132	geckodriver	INFO	Listening on 127.0.0.1:43635
+1655226416135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49783" "-no-remote" "-profile" "/tmp/rust_mozprofiledcqD6Z"
+1655226416493	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49783
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledcqD6Z/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655226417319	Marionette	INFO	Listening on port 42069
+DevTools listening on ws://localhost:49783/devtools/browser/177d47b9-51f8-4ccf-b999-316506832c10
+1655226417348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655226428726	Marionette	INFO	Stopped listening on port 42069
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655226450603	geckodriver	INFO	Listening on 127.0.0.1:44991
+1655226450606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58841" "-no-remote" "-profile" "/tmp/rust_mozprofilem07mG8"
+1655226450978	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58841
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem07mG8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655226451820	Marionette	INFO	Listening on port 32791
+DevTools listening on ws://localhost:58841/devtools/browser/19567a59-d3c9-4fa3-a4f9-da83bd388643
+1655226451921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://avid-recruitment.azurewebsites.net"
+1655226454076	Marionette	INFO	Stopped listening on port 32791
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655226471309	geckodriver	INFO	Listening on 127.0.0.1:47171
+1655226471312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45839" "-no-remote" "-profile" "/tmp/rust_mozprofile8FYbeD"
+1655226471663	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45839
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8FYbeD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655226472554	Marionette	INFO	Listening on port 38533
+DevTools listening on ws://localhost:45839/devtools/browser/602a4ff0-5c5c-48c4-80d3-815c2f59d0d1
+1655226472639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://avid-recruitment.azurewebsites.net"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://avid-recruitment.azurewebsites.net"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655226500558	Marionette	INFO	Stopped listening on port 38533
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655226970352	geckodriver	INFO	Listening on 127.0.0.1:60525
+1655226970356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35257" "-no-remote" "-profile" "/tmp/rust_mozprofileftt6uJ"
+1655226970713	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:35257
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileftt6uJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655226971638	Marionette	INFO	Listening on port 42349
+DevTools listening on ws://localhost:35257/devtools/browser/99ca07b2-02f5-41b5-b842-2cefbcdf9fd9
+1655226971669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://avid-recruitment.azurewebsites.net"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655226977463	Marionette	INFO	Stopped listening on port 42349
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
