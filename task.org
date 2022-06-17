@@ -1,5 +1,6 @@
 #+TITLE: AVID entry project
 #+AUTHOR: Filip Helbig
+#+OPTIONS: toc:nil num:nil
 
 
 * PROJ Part 1 [4/5]
@@ -36,6 +37,5 @@ Extra points for: [0/2]
 + [ ] automated test cases in Postman (eg. response for invalid data, if pagination/filtering works properly)
 + [ ] extra tests in Selenium/Cypress (eg. what application does if wrong username is entered, if filtering/pagination works properly)
 
-* TODO Code clarity [0/2]
-+ [ ] make a function to check for exceptions given only id or className
-+ [ ] consider =async await=
+* TODO Code clarity [1/2]
++ [X] make a function to check for exceptions given only id or className

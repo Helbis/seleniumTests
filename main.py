@@ -13,20 +13,21 @@ azure = "azurewebsites"
 url = "https://avid-recruitment." + azure + ".net"
 
 
-def fdElement(name, by=By.ID, wait=5):
+def fdElement(name, by=By.ID, wait=10, logging=True):
     global driver, exp, WebDriverWait, EC
+
+    if logging:
+        print(f"[LOG] Looking {by} for {name}")
 
     try:
         wait = WebDriverWait(driver, wait)
         element = wait.until(EC.presence_of_element_located((by, name)))
 
     except exp.NoSuchElementException as e:
-        print(f"Looking for {name}")
         print(e)
         exit(1)
 
     except Exception as e:
-        print(f"Looking for {name}")
         print(e)
         exit(1)
 
@@ -50,14 +51,14 @@ sign_in_button.click()
 _ = fdElement("formLimit")
 
 # Check how many elements are in a list
-print("Trying to locate all elements with folder-id className")
-folder = fdElement("folder-id")
-folder_path = fdElement("folder-path")
-print(type(folder))
+# print("Trying to locate all elements with folder-id className")
+# folder = fdElement("folder-id")
+# folder_path = fdElement("folder-path")
+# print(type(folder))
 
-if type(folder) == "list":
-    for tr in folder:
-        print(f"tr: {tr}")
+# if type(folder) == "list":
+#     for tr in folder:
+#         print(f"tr: {tr}")
 
 
 # Find and type parameters for search
@@ -72,8 +73,7 @@ buttonOptions = fdElement("buttonOptions")
 buttonOptions.click()
 
 # Check if folder with id 10 was presented
-wait = WebDriverWait(driver, 10)
-elems = wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "tr")))
+_ = fdElement("tr", by=By.TAG_NAME)
 
 folder = fdElement("folder-id", by=By.CLASS_NAME)
 folder_path = fdElement("folder-path", by=By.CLASS_NAME)
@@ -81,12 +81,11 @@ folder_path = fdElement("folder-path", by=By.CLASS_NAME)
 
 folder.click()
 
-wait = WebDriverWait(driver, 10)
-elems = wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, "h3")))
+_ = fdElement("h3", by=By.TAG_NAME)
 folderNumber = fdElement("folder-id")
 
 print(f"folderNumber.text: {folderNumber.text}")
-if folderNumber.text == idLooked:
-    print("Successfully picked number 10")
+if int(folderNumber.text) == idLooked:
+    print("\tSuccessfully picked number 10")
 
 # driver.close()
