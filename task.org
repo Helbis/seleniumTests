@@ -37,5 +37,5 @@ Extra points for: [0/2]
 + [ ] automated test cases in Postman (eg. response for invalid data, if pagination/filtering works properly)
 + [ ] extra tests in Selenium/Cypress (eg. what application does if wrong username is entered, if filtering/pagination works properly)
 
-* TODO Code clarity [1/2]
+* TODO Code clarity [1/1]
 + [X] make a function to check for exceptions given only id or className
